@@ -1,8 +1,9 @@
 # build output
 dist/
 
-# generated types
+# legacy/generated caches
 .astro/
+*.tsbuildinfo
 
 # dependencies
 node_modules/

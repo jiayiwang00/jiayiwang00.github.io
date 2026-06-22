@@ -2,7 +2,7 @@
 
 Personal portfolio hosted at [jiayiwang00.github.io](https://jiayiwang00.github.io/).
 
-Built with Astro, React, TypeScript, and Tailwind CSS. The site is automatically
+Built with React, TypeScript, Vite, and Tailwind CSS. The site is automatically
 built and deployed to GitHub Pages whenever `main` is updated.
 
 ## Local development
@@ -11,6 +11,9 @@ built and deployed to GitHub Pages whenever `main` is updated.
 pnpm install
 pnpm dev
 ```
+
+The development server is available only on `127.0.0.1`. Run `pnpm build` to
+generate the static site in `dist/`, including both `/` and `/portfolio/`.
 
 ## Credits
 
